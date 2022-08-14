@@ -20,7 +20,6 @@ local_css("style/style.css")
 #Load assetts
 lottie_coding= load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_Xa1iTX.json")
 
-img_contact_form = Image.open("Images/Valentines.png")
 img_lottie_animation = Image.open("Images/Ace.png")
 img_lottie_animation_2 = Image.open("Images/HappyAce.png")
 img_lottie_animation_3 = Image.open("Images/Toy.png")
@@ -68,20 +67,7 @@ with st.container():
                 A picture of Ace staring into the abyss
                 """
             )
-            
-with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_contact_form)
 
-
-        with text_column:
-            st.subheader("Puppy love :heart:")
-            st.write(
-                """
-                Alone we are strong... together we are stronger
-                """
-            )
 
 with st.container():
     image_column, text_column = st.columns((1, 2))

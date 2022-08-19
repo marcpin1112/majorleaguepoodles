@@ -20,10 +20,10 @@ local_css("style/style.css")
 #Load assetts
 lottie_coding= load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_Xa1iTX.json")
 
-img_lottie_animation = Image.open("Images/Ace.png")
-img_lottie_animation_2 = Image.open("Images/HappyAce.png")
-img_lottie_animation_3 = Image.open("Images/Toy.png")
-img_lottie_animation_4 = Image.open("Images/Cute.png")
+img_lottie_animation = Image.open("Images/Ace.PNG")
+img_lottie_animation_2 = Image.open("Images/HappyAce.PNG")
+img_lottie_animation_3 = Image.open("Images/Toy.PNG")
+img_lottie_animation_4 = Image.open("Images/Cute.PNG")
 #Header section
 with st.container():
     st.subheader("Hello, welcome to the Major League Poodles Website!!!")
